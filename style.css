@@ -238,7 +238,7 @@ div#slider figure {
     margin:0;
 }
 .div-container-parcours-border h4,p{
-    margin-left: 20px;
+    margin-left: 0;
 }
 .second-box-parcours{
     padding-left: 20px ;
@@ -309,6 +309,9 @@ div#slider figure {
     background-color:var(--third-color-graph);
     border-radius: 10px;
 
+}
+.cercle p{
+    padding-left:var(--paddin-lefft-h3-main) ;
 }
 @media screen and (min-width:1024px){
     .skillbox{
