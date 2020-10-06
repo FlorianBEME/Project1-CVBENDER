@@ -136,9 +136,6 @@ header h2{
         font-size: 35px;
     }
    
-    .container-header-title{
-
-    }
     nav ul{
         display: flex;
         list-style: none;
@@ -236,7 +233,7 @@ div#slider figure {
     margin:0;
 }
 .div-container-parcours-border h4,p{
-    margin: 0;
+    margin-left: 20px;
 }
 .second-box-parcours{
     padding-left: 20px ;
@@ -275,6 +272,7 @@ div#slider figure {
     flex-direction: column;
     align-items: flex-start;
     margin-top: var(--paddin-lefft-h3-main);
+    margin-left: 10vw;
 }
 
 .cercle{
@@ -307,6 +305,14 @@ div#slider figure {
     .skillbox{
         flex-direction: row;
     }
+    .conic{
+        width: 500px;
+        height: 500px;
+        margin-left: 30vw;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+
     .conic{
         width: 500px;
         height: 500px;
@@ -450,6 +456,7 @@ div.second-box-certifsdip {
 .section-form {
     margin-top: 50px;
     margin-bottom: 50px;
+
 }.name {
     display: inline;
 }
@@ -462,7 +469,6 @@ div.second-box-certifsdip {
 
 .form {
     padding-top: var(--paddin-lefft-h3-main);
-    box-shadow: 0 20px 50px rgb(23, 32, 90);
     background-color: #111845a6;       
 }
 form div{
