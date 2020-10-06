@@ -49,6 +49,7 @@ main{
 .white-box h3{
     text-align: center;
     font-size: 25px;
+    padding-left: 0;
 
 }
 
@@ -222,6 +223,10 @@ div#slider figure {
     100% { left: -400%; }
 }
 /*parcours*/
+#Parcours:target {
+    padding-top: 9em; 
+    margin-top: -9em; 
+}
 .full-parcour-container{
     padding: 0px 20px;
     display: flex;
@@ -250,6 +255,10 @@ div#slider figure {
 }
 
 /*compétences*/
+#comp:target {
+    padding-top: 9em; 
+    margin-top: -9em; 
+}
 .container-conic{
     display: flex;
 }
@@ -313,11 +322,10 @@ div#slider figure {
     }
 }
 /*hobbies*/
-.hobbies{
-    padding-left: 20px;
+#hob:target {
+    padding-top: 9em; 
+    margin-top: -9em; 
 }
-
-
 .container-hobbies-allbox{
     display: flex;
     align-items: center;
@@ -347,6 +355,10 @@ div#slider figure {
 
 }
 /*Personalité*/
+#perso:target {
+    padding-top: 9em; 
+    margin-top: -9em; 
+}
 .persograph{
     width: 100%;
     color: white;
@@ -409,6 +421,10 @@ div#slider figure {
    }
 }
 /*Diplome*/
+#certifsdip:target {
+    padding-top: 9em; 
+    margin-top: -9em; 
+}
 .full-certifsdip-container {
     padding: 0px 20px;
     display: flex;
@@ -447,6 +463,10 @@ div.second-box-certifsdip {
     }
 }
 /*contact*/
+#formu:target {
+    padding-top: 9em; 
+    margin-top: -9em; 
+}
 .section-form {
     margin-top: 50px;
     margin-bottom: 50px;
