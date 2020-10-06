@@ -409,40 +409,42 @@ div#slider figure {
    }
 }
 /*Diplome*/
-#certificatsDiplomes.white-box {
+.full-certifsdip-container {
+    padding: 0px 20px;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    margin-bottom: 50px;
 }
-img.universityofmars {
-    display: block;
-    border-radius: 10px;
-    margin-right: auto;
-    margin-left: auto;
-}
-div.div-container-certificatsdiplomes {
+div.first-box-certifsdip {
     display: flex;
-    flex-direction: row;
-    margin-bottom: 100px;
+    padding: 20px 0px;
 }
-img.wildcodeschool {
-    display: block;
+img.certifsdip {
     border-radius: 10px;
-    margin-right: auto;
-    margin-left: auto;
+    min-width: 180px;
 }
-div.first-box-certificatsdiplomes {
-    margin: 30px;
-}
-div.second-box-certificatsdiplomes {
+div.second-box-certifsdip {
     display: flex;
+    padding: 20px 0px;
 }
-h4.certifdiplome {
-    text-align: center;
+.certifsdiptxt {
+    padding: 20px;
 }
-p.certifdiplome {
-    text-align: center;
-    padding: 50px;
+
+/*iphone size*/
+@media screen and (max-width: 768px){
+    .first-box-certifsdip {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .second-box-certifsdip {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
 /*contact*/
 .section-form {
@@ -537,7 +539,6 @@ label {
 
 @media screen and (min-width:1024px) {
     button:hover {
-        transform: scale(1.5);
         background-color: #bdf85e;
         cursor: pointer;
     }
@@ -603,12 +604,11 @@ label {
     background-color: rgb(76,86,81);
     display: flex;
     bottom: 0;
-    margin-top: 150px;
+    margin-top: 60px;
     position: relative;
     padding: 20px;
     background: #111845a6;
     box-shadow: 0 20px 50px rgb(23, 32, 90);
-    border-top: 2px solid #2a3cad;
     color: white;
     
 }
@@ -735,11 +735,6 @@ label {
         display: flex;
         justify-content: space-around;
     }
-    div.div-container-certificatsdiplomes {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 80px;
-    }
 }
 /*mobile size*/
 @media screen and (max-width: 768px) {
@@ -758,6 +753,18 @@ label {
     .logobenderhead {
         max-width: 60%;
         max-height: 60%;
+    }
+    .facelink {
+        min-width: 85px;
+    }
+    .linkelink {
+        min-width: 85px;
+    }
+    .githublink {
+        min-width: 85px;
+    }
+    .logobenderheadlink {
+        min-width: 100px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -790,7 +797,7 @@ label {
         justify-content: center;
         padding-right: 0;
         padding-left: 0;
-        margin-left: 15px;
+        margin-left: 10px;
     }
     div.linkedin {
         display: flex;
@@ -809,10 +816,5 @@ label {
         justify-content: center;
         padding-right: 0;
         padding-left: 0;
-    }
-    div.div-container-certificatsdiplomes {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 80px;
     }
 }
