@@ -409,7 +409,41 @@ div#slider figure {
    }
 }
 /*Diplome*/
-
+#certificatsDiplomes.white-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+img.universityofmars {
+    display: block;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+div.div-container-certificatsdiplomes {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+img.wildcodeschool {
+    display: block;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+div.first-box-certificatsdiplomes {
+    margin: 30px;
+}
+div.second-box-certificatsdiplomes {
+    display: flex;
+}
+h4.certifdiplome {
+    text-align: center;
+}
+p.certifdiplome {
+    text-align: center;
+    padding: 50px;
+}
 /*contact*/
 .section-form {
     margin-top: 50px;
@@ -568,6 +602,7 @@ label {
     background-color: rgb(76,86,81);
     display: flex;
     bottom: 0;
+    margin-top: 150px;
     position: relative;
     padding: 20px;
     background: #111845a6;
@@ -699,6 +734,11 @@ label {
         display: flex;
         justify-content: space-around;
     }
+    div.div-container-certificatsdiplomes {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
 }
 /*mobile size*/
 @media screen and (max-width: 768px) {
@@ -737,6 +777,9 @@ label {
         max-width: 80%;
         max-height: 80%;
     }
+    div.foot {
+        padding-bottom: 20px;
+    }
     div.rightbox {
         display: grid;
         grid-template-columns: repeat(4,1fr);
@@ -765,5 +808,10 @@ label {
         justify-content: center;
         padding-right: 0;
         padding-left: 0;
+    }
+    div.div-container-certificatsdiplomes {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
     }
 }
