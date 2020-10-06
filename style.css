@@ -536,6 +536,13 @@ label {
     }
     
 }
+#phrasingForm {
+    color: var(--second-color-text);
+    align-items: center;
+    display: none;
+    justify-content: center;
+    text-align: center;
+  }
 
 @media screen and (min-width:1024px) {
     button:hover {
