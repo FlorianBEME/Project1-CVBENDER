@@ -543,7 +543,7 @@ label {
 
 @media screen and (min-width:1024px) {
     button:hover {
-        transform: scale(1.5);
+        transform: scale(1.5); 
         background-color: #bdf85e;
         cursor: pointer;
     }
