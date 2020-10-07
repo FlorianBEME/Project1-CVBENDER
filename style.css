@@ -378,6 +378,16 @@ div#slider figure {
     text-align: right;
     color:white;
 }
+/*.histo{
+    animation-name: heartbeat;
+	animation-duration: 5s;
+	animation-iteration-count: 2;
+		}
+@keyframes heartbeat {
+    0%    { width:100px; }
+	50%   { width:200px; }
+    100%  { width:100px; }
+}*/
     
 .chart{
     padding-right: 5%;
@@ -390,6 +400,15 @@ div#slider figure {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+    animation-name: heartbeat1;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+@keyframes heartbeat1 {
+    100%    { width:90%; }
+	50%   { width:20%; }
+    0%  { width:0%; }
 }
 .sen{
     width: 70%; background-color: var(--fifth-color-graph);
@@ -397,6 +416,15 @@ div#slider figure {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+    animation-name: heartbeat2;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+@keyframes heartbeat2 {
+    100%    { width:70%; }
+	50%   { width:20%; }
+    0%  { width:0%; }
 }
     
 .klep{
@@ -406,6 +434,16 @@ div#slider figure {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+    animation-name: heartbeat3;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+@keyframes heartbeat3 {
+    100%    { width:65%; }
+	50%   { width:20%; }
+    0%  { width:0%; }
+
 }
 .ego{
     width: 50%; 
@@ -414,6 +452,15 @@ div#slider figure {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+    animation-name: heartbeat4;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+@keyframes heartbeat4 {
+    100%  { width:50%; }
+	50%  { width:20%; }
+    0%  { width:0%; }
 }
 .pvc{
     width: 45%; 
@@ -422,6 +469,15 @@ div#slider figure {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+    animation-name: heartbeat5;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+@keyframes heartbeat5 {
+    100%    { width:45%; }
+	50%   { width:20%; }
+    0%  { width:0%; }
 }
 
 @media screen and (min-width:1024px){
