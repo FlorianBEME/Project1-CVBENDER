@@ -253,8 +253,8 @@ div#slider figure {
 
 /*compétences*/
 #comp:target {
-    padding-top: 9em; 
-    margin-top: -9em; 
+    padding-top: 6em; 
+    margin-top: -6em; 
 }
 .container-conic{
     display: flex;
@@ -332,8 +332,8 @@ div#slider figure {
 }
 /*hobbies*/
 #hob:target {
-    padding-top: 9em; 
-    margin-top: -9em; 
+    padding-top: 7em; 
+    margin-top: -7em; 
 }
 .container-hobbies-allbox{
     display: flex;
@@ -365,8 +365,8 @@ div#slider figure {
 }
 /*Personalité*/
 #perso:target {
-    padding-top: 9em; 
-    margin-top: -9em; 
+    padding-top: 7em; 
+    margin-top: -7em; 
 }
 .persograph{
     width: 100%;
