@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Nasalization Rg';
-    src: url('./fonts/NasalizationRg-Regular.woff2') format('woff2'),
+    src: url('./fonts/Nasalization  Rg-Regular.woff2') format('woff2'),
          url('./fonts/NasalizationRg-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -735,49 +735,43 @@ label {
 
 .facebot {
     padding: 10px;
-    margin-right: 10px;
     background-color: #FFFDD1;
     border-radius: 10px;
+    margin-right: 10px;
+
 
 }
 .facebot:hover {
-    background-color: #FFFDD1;
-    border-radius: 15px;
+    background-color: #bdf85e;
     transition: 0.5s all;
-    font-size: 10px;
-    padding: 20px;
+    transform: scale(1.25);
 
 }
 .linkedin  {
     padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
     background-color: #FFFDD1;
     border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
     
 }
 .linkedin:hover {
-    background-color: #FFFDD1;
-    border-radius: 15px;
+    background-color: #bdf85e;
     transition: 0.5s all;
-    font-size: 10px;
-    padding: 20px;
-
+    transform: scale(1.25);
 }
 .github {
     padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
     background-color: #FFFDD1;
     border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
    
 }
 .github:hover {
-    background-color:#FFFDD1;
-    border-radius: 15px;
+    background-color: #bdf85e;
     transition: 0.5s all;
-    font-size: 10px;
-    padding: 20px;
+    transform: scale(1.25);
 }
 .logobenderhead {
     padding: 10px;
@@ -786,11 +780,9 @@ label {
     border-radius: 10px;
 }
 .logobenderhead:hover {
-    background-color: #FFFDD1;
-    border-radius: 15px;
+    background-color: #bdf85e;
     transition: 0.5s all;
-    font-size: 10px;
-    padding: 20px;
+    transform: scale(1.25);
 
 }
 /*ipad size */
@@ -827,6 +819,26 @@ label {
     div.rightbox {
         display: flex;
         justify-content: space-around;
+    }
+    a.facelink {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a.linkelink {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a.githublink {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a.loggobenderheadlink {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 /*mobile size*/
@@ -890,7 +902,6 @@ label {
         justify-content: center;
         padding-right: 0;
         padding-left: 0;
-        margin-left: 10px;
     }
     div.linkedin {
         display: flex;
