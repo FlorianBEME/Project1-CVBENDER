@@ -14,6 +14,7 @@
     --second-color-text:rgb(255,253,209);
     --main-font-family:'Nasalization Rg';
     --paddin-lefft-h3-main:20px;
+    --paddin-2x-h3-main:40px;
     --second-bg-color:#111845a6;
     --main-color-graph: #24CBD9 ;
     --second-color-graph: #6DFACD;
@@ -22,8 +23,9 @@
     --fifth-color-graph:#FFC571;
     --sixth-color-graph:#BF9294;
     --seventh-color-graph: #688BF6;
-    --eighth-color-graph:#9453ED;
+    --eighth-color-graph:#A2BDBB;
 } 
+/* AB9B7D */
 body{
     font-family: 'Nasalization Rg';
     margin: 0;
@@ -33,23 +35,26 @@ main{
 }
 .blue-box{
     margin: var(--paddin-lefft-h3-main) 0px;
-    padding:var(--paddin-lefft-h3-main) var(--paddin-lefft-h3-main);
+    padding-top:var(--paddin-2x-h3-main);
+    padding-bottom:60px;
     background-color: #111845a6 ;
 }
 .blue-box h3{
     text-align: center;
     font-size: 25px;
+    margin-bottom: 60px;
     color: var(--second-color-text);
 }
 .white-box{
-    padding-top: 10px;
     margin: var(--paddin-lefft-h3-main) 0px;
-    padding:var(--paddin-lefft-h3-main) var(--paddin-lefft-h3-main);
+    padding-top:var(--paddin-2x-h3-main);
+    padding-bottom:60px;
 }
 .white-box h3{
     text-align: center;
     font-size: 25px;
     padding-left: 0;
+    margin-bottom: 60px;
 
 }
 
@@ -75,6 +80,7 @@ header h1{
 header h2{
     font-size: 14px;
     text-align: center;
+    margin-bottom: 23px;
 }
 .logoBenderHeader{
     width: auto;
@@ -114,7 +120,8 @@ header h2{
 .container-ul-menu{
     display:none;
 }
-@media screen and (min-width: 1024px){
+
+@media screen and (min-width: 1412px){
     header{
         padding: 0;
     }
@@ -144,7 +151,7 @@ header h2{
 
     }
     nav ul li{
-        font-size: 17px;
+        font-size: 22px;
         padding:0px 10px;
     }
     .main-nav-container{
@@ -377,18 +384,7 @@ div#slider figure {
 .histo {
     text-align: right;
     color:white;
-}
-/*.histo{
-    animation-name: heartbeat;
-	animation-duration: 5s;
-	animation-iteration-count: 2;
-		}
-@keyframes heartbeat {
-    0%    { width:100px; }
-	50%   { width:200px; }
-    100%  { width:100px; }
-}*/
-    
+}   
 .chart{
     padding-right: 5%;
 }
@@ -498,7 +494,7 @@ div#slider figure {
 }
 div.first-box-certifsdip {
     display: flex;
-    padding: 20px 0px;
+    padding-bottom: 20px;
 }
 img.certifsdip {
     border-radius: 10px;
@@ -543,7 +539,8 @@ div.second-box-certifsdip {
 .title-form{
     text-align: center;
     font-size: 25px;
-    color: var(--second-color-text)
+    color: var(--second-color-text);
+    margin-bottom: 60px;
 }
 
 .form {
